@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.App {
+  background-color: cornflowerblue;
+  height: 100vh;
+  width: 100%;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(243, 235, 235);
+  border-radius: 12px;
+  border: none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.search-input::placeholder {
+  font-size: 15px;
+  color: gray;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.contacts {
+  background-color: white;
+  width: 400px;
+  padding: 20px 20px 0;
+}
+
+.contact-list {
+  overflow-y: auto;
+  height: 550px;
+}
+
+.checkbox-list {
+  padding-bottom: 14px;
+}

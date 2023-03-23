@@ -1,0 +1,25 @@
+.contact-item {
+  padding: 10px 0;
+  border-top: 2px solid darkgray;
+  background-color: white;
+}
+
+.contact-photo {
+  width: 100px;
+}
+
+.contact-info {
+  width: 300px;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.contact-name {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.contact-number {
+  color: gray;
+  font-size: 13px;
+}
